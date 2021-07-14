@@ -1,5 +1,5 @@
 # TelloAndroid
-An Android library for controlling the DJI Ryze Tello drone and streaming the video.
+An Android app for controlling the DJI Ryze Tello drone and streaming the video.
 
 # What's special in this?
 1. Implemented most of the methods mentioned in the SDK, making controls easier to use.
