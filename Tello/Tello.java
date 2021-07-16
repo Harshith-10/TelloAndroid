@@ -54,12 +54,12 @@ public class Tello {
 	private InetAddress mainIP;
 	private TextView logView;
 	private TextureView m_surface;	
-    private MediaCodec m_codec;
-    private DecodeFramesTask m_frameTask;
+        private MediaCodec m_codec;
+        private DecodeFramesTask m_frameTask;
 	private VideoReceiver provider;
 	
 	private byte[] header_sps = {0, 0, 0, 1, 103, 66, 0, 42, (byte) 149, (byte) 168, 30, 0, (byte) 137, (byte) 249, 102, (byte) 224, 32, 32, 32, 64};
-    private byte[] header_pps = {0, 0, 0, 1, 104, (byte) 206, 60, (byte) 128, 0, 0, 0, 1, 6, (byte) 229, 1, (byte) 151, (byte) 128};
+        private byte[] header_pps = {0, 0, 0, 1, 104, (byte) 206, 60, (byte) 128, 0, 0, 0, 1, 6, (byte) 229, 1, (byte) 151, (byte) 128};
 	
 	private byte[] frame = new byte[0];
 	private byte[] buffer1;
@@ -469,7 +469,7 @@ public class Tello {
 		protected void onPostExecute(String s) {
 			super.onPostExecute(s);
 		}
-    }
+        }
 	
 	private class VideoReceiver extends Thread {
 		private boolean keepRunning = true;
