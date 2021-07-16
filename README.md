@@ -9,7 +9,7 @@ An Android app for controlling the DJI Ryze Tello drone and streaming the video.
 - Has built-in video decoder. You just have to set an output `TextureView` using `setVideoOut(yourTextureView)`.
 
 ## Usage
-This class is very easy to implement and work with.
+This class is very easy to implement and work with. Just add this file into you package and done!
 All you have to do is to ensure that you've connected your device to Tello WiFi before calling the constructor.
 ````
 //After you've connected to the Drone's WiFi
